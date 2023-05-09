@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">react-ts-app</string>
+    <string name="title_activity_main">react-ts-app</string>
+    <string name="package_name">react.ts.app</string>
+    <string name="custom_url_scheme">react.ts.app</string>
+</resources>

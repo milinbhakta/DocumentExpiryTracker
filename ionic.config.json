@@ -1,0 +1,7 @@
+{
+  "name": "react-ts-app",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "custom"
+}

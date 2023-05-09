@@ -10,9 +10,23 @@
     "test": "vitest",
     "lint": "eslint --ext .js,.cjs,.ts,.tsx .",
     "lint:fix": "eslint --ext .js,.cjs,.ts,.tsx . --fix",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "ionic:build": "npm run build",
+    "ionic:serve": "vite dev --host"
   },
   "dependencies": {
+    "@capacitor/android": "5.0.2",
+    "@capacitor/app": "5.0.2",
+    "@capacitor/cli": "5.0.2",
+    "@capacitor/core": "5.0.2",
+    "@capacitor/haptics": "5.0.2",
+    "@capacitor/keyboard": "5.0.2",
+    "@capacitor/status-bar": "5.0.2",
+    "@emotion/react": "^11.11.0",
+    "@emotion/styled": "^11.11.0",
+    "@fontsource/roboto": "^4.5.8",
+    "@mui/icons-material": "^5.11.16",
+    "@mui/material": "^5.12.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.11.0"
